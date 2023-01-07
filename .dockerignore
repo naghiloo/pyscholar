@@ -1,5 +1,6 @@
 .gitignore
 .dockerignore
+result-example.json
 Dockerfile
 docker-compose.yml
 __pycache__/
