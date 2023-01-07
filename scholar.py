@@ -1,3 +1,4 @@
+import sys
 import time
 import json
 import logging
@@ -8,6 +9,9 @@ from decouple import config, Csv
 from functions import send_sms
 
 log = logging.getLogger(__name__)
+handler = logging.StreamHandler(sys.stdout)
+handler.setLevel(logging.INFO)
+log.addHandler(handler)
 
 # pg = Tor_Internal()
 # scholarly.use_proxy(pg)

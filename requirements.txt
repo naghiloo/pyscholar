@@ -5,4 +5,3 @@ python-decouple==3.6
 selenium===4.7.2
 lxml===4.9.2
 scholarly===1.7.9
-logging===0.4.9.6
