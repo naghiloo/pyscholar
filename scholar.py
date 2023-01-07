@@ -7,7 +7,7 @@ from decouple import config, Csv
 
 from functions import send_sms
 
-log = logging.getLogger("scholar")
+log = logging.getLogger(__name__)
 
 # pg = Tor_Internal()
 # scholarly.use_proxy(pg)
