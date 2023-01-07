@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  pyscholar:
+    container_name: pyscholar
+    build: .
+    env_file:
+      - .env
