@@ -3,5 +3,7 @@ services:
   pyscholar:
     container_name: pyscholar
     build: .
+    volumes:
+      - ./result.json:/app/result.json
     env_file:
       - .env
