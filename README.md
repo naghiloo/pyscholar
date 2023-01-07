@@ -1,6 +1,6 @@
 # PyScholar
 This is a tiny project that sends sms notifications based on the specific scholar profile changes about:
-* Articles Count
+* Publications Count
 * H-index Changes
 * Citations Changes
 
@@ -8,8 +8,9 @@ PyScholar will checks the specific scholar page repeatitively and sends sms noti
 
 
 ## Usage
-1. Ensure to fill the environment variables
-2. Run the compose file
+1. cp .env-example .env and fill values
+2. cp result-example.json result.json
+3. Run the compose file
    ```
    docker compose up -d
    ```
