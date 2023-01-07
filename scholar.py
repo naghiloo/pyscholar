@@ -42,6 +42,7 @@ def cleanScholar(author_id):
     return json.dumps(result, indent=2)
 
 while True:
+    # TODO: create result.json file if does not exists
     r = open("result.json", "r")
     res = json.loads(r.read())
 
